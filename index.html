@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário IOS</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--Linkando box icon para a página-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    <!--Conteúdo principal da página-->
+    <main class="container">
+        <!--Abertura do formulário-->
+        <form action="">
+            <!--Título de primeiro nível-->
+            <h1>Login do IOS</h1>
+            <!--Agrupar elementos e organizar o conteúdo em blocos-->
+            <div class="input-box">
+                <!-- INPUT = Criar campos de entrada de dados em um formulário / PLACEHOLDER = indicar o que é para escrever dentro do campo / TYPE = tipo de dados do conteúdo daquele campo-->
+                <input placeholder="Email" type="email">
+                <i class="bx bxs-user"></i>
+            </div>
+
+            <div class="input-box">
+                <input placeholder="Senha" type="password">
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="lembrar-senha">
+                <label>
+                    <input type="checkbox">
+                    Lembrar senha
+                </label>
+                <a href="#">Esqueci a senha</a>
+            </div>
+
+            <button type="submit" class="login">Login</button>
+
+            <div class="cadastro">
+                <p>Não tem uma conta?<a href="#">Cadastre-se</a></p>
+            </div>
+        </form>
+
+    </main>
+</body>
+</html>
